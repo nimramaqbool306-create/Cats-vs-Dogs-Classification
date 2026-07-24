@@ -84,17 +84,17 @@ The best-performing setup (Experiment F) uses **5 conv blocks** (32→64→128�
 
 **Best model — training curves (Experiment F):**
 
-![Training curves — best model](images/training_curves_best_model.png)
+![Training curves — best model](training_curves_best_model.png)
 
 **Best model — sample predictions on test images:**
 
-![Sample predictions](images/sample_predictions.png)
+![Sample predictions](sample_predictions.png)
 
 **Architecture experiment comparison (E vs F vs G):**
 
-![Experiment comparison — accuracy and loss](images/experiment_comparison_accuracy_loss.png)
+![Experiment comparison — accuracy and loss](experiment_comparison_accuracy_loss.png)
 
-![Experiment comparison — speed tradeoff](images/experiment_comparison_speed_tradeoff.png)
+![Experiment comparison — speed tradeoff](experiment_comparison_speed_tradeoff.png)
 
 **Optimizer comparison** (fixed 4-conv-block architecture, cosine LR decay, 25 max epochs):
 
@@ -107,9 +107,9 @@ The best-performing setup (Experiment F) uses **5 conv blocks** (32→64→128�
 
 SGD needed a much higher learning rate than the 0.001 used here to be competitive — it underperformed across every run in the notebook.
 
-![Optimizer comparison — accuracy and loss](images/optimizer_comparison_accuracy_loss.png)
+![Optimizer comparison — accuracy and loss](optimizer_comparison_accuracy_loss.png)
 
-![Optimizer comparison — speed tradeoff](images/optimizer_speed_tradeoff.png)
+![Optimizer comparison — speed tradeoff](optimizer_speed_tradeoff.png)
 
 ## Performance Analysis
 
